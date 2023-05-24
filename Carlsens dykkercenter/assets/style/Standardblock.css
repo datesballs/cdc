@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.section-blok-et{
+    width: var(--contain-width);
+    position: relative;
+    margin-inline: auto;
+    max-width: 1470px;
+}
+
+.standard-blok-et > div{
+    z-index: -99;
+    margin-block-end: 100px;
+    padding-block-end: 100px;
+}
+
+
+.standard-blok-et{
+    position: relative;
+    text-align: center;
+    padding: clamp(5rem, 4vmin, 20.5rem);
+}
+
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.tiny-image{
+    height: 360px;
+    width: 770px;
+}
+
+.standard-blok-to{
+    display: flex;
+    break-inside: 2;
+    column-count: 2;
+}
