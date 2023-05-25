@@ -1,4 +1,16 @@
-.book-section{
-    background-color: blue;
-    width: 40rem;
+.destination-card{
+    display: flex;
+    background-color: rgb(222, 222, 222);
+    border-radius: 15px;
+    margin: 4vw;
+}
+
+.destination-img{
+   width: 40vw; 
+   border-radius: 15px 0 0 15px;
+}
+
+.info-rapper{
+    width: 50vw;
+    padding: 2vw;
 }
