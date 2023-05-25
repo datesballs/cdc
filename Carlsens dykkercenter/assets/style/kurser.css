@@ -1,7 +1,36 @@
 
-
 .line{
     background-color: var(--lightgrey);
     height: 0.5rem;
     width: 130rem;
+}
+
+.book-section{
+    display: block;
+    justify-content: center;
+}
+
+/* Prøvedyk og snorkel */
+
+h2{
+    padding: 4rem;
+
+}
+
+h3{
+    padding: 4rem;
+
+}
+
+p{
+    padding: 4rem;
+}
+
+ul{
+    list-style: circle;
+}
+
+li{
+    list-style-type: circle; 
+    font-size: 1.5rem;
 }
