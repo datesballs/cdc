@@ -18,12 +18,12 @@ h2{
 }
 
 h3{
-    padding: 4rem;
+    padding: 0 4rem;
 
 }
 
 p{
-    padding: 4rem;
+    padding: 4rem 0rem 4rem 0;
 }
 
 ul{

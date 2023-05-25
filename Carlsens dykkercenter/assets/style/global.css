@@ -125,3 +125,10 @@ text-align: center;
     -o-border-radius: 15px;
 }
 
+
+.line{
+    background-color: var(--lightgrey);
+    width: 88%;
+    height: 0.5rem;
+}
+
