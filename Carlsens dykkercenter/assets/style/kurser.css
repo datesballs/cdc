@@ -10,7 +10,12 @@
     justify-content: center;
 }
 
-/* Prøvedyk og snorkel */
+.book-info{
+    display: flex;
+    margin: 40px;
+}
+
+
 
 h2{
     padding: 4rem;
