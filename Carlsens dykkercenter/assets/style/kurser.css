@@ -28,6 +28,7 @@ h2{
 
 h3{
     padding: 0 4rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -40,4 +41,5 @@ p{
     list-style: circle;
     font-size: 1.5rem;
     margin: 4rem;
+    padding-left: 2rem;
 }
