@@ -32,10 +32,12 @@ h3{
 }
 
 p{
-    padding: 4rem 0rem 4rem 0;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .kurser-ul{
     list-style: circle;
     font-size: 1.5rem;
+    margin: 4rem;
 }
