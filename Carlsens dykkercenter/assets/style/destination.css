@@ -1,6 +1,6 @@
 .destination-card{
     display: flex;
-    background-color: rgb(222, 222, 222);
+    background-color:var(--lightgrey);
     border-radius: 15px;
     margin: 4vw;
 }
