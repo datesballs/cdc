@@ -41,6 +41,22 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
+
+// Båd animationen
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting) {
+            entry.target.classList.add('show')
+        } else{
+            entry.target.classList.remove('show')
+        }
+    }); {rootMargin: "0px 0px -500px 0px"}
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
 // kode for maps
 // 
 let map = L.map('maps').setView([57.0551, 9.9152], 12);
