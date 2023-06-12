@@ -108,6 +108,9 @@
 
 .filter-button{
     float: right;
+    padding: 1rem 10rem;
+    background-color: var(--green);
+    left: 25rem;
 }
 
 .heading-product{
