@@ -79,3 +79,42 @@
 
 
 
+
+
+.side-panel{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #F6F6F6;
+    padding-block: 4rem ;
+}
+
+.side-panel > h3{
+    display: flex;
+    padding-block-end: 2rem;
+    padding-inline-start: 25%;
+    font-weight: 800;
+}
+
+.side-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-categories{
+    text-align:left ;
+    padding-inline-start: 25%;
+}
+
+.filter-button{
+    float: right;
+}
+
+.heading-product{
+    padding-top: 10rem;
+}
+
+.product-container{
+    width: 80%;
+    height: 100%;
+}
