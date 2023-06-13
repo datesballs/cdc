@@ -73,7 +73,7 @@
 .flip-card {
     background-color: var(--lightgrey);
     width: 25rem;
-    height: 15rem;
+    height: 18rem;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
 }
@@ -86,6 +86,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    margin-top: 3.5rem;
 }
 
 /* benyttes så den flipper horisontalt, når man hover over kortet*/
