@@ -2,6 +2,7 @@
     width: 45vw;
     transform: translateY(3vw);
     border-radius: 15px;
+    object-fit: cover;
 }
 h1{
     font-size: 3.6rem;
