@@ -132,3 +132,12 @@ text-align: center;
     height: 0.5rem;
 }
 
+.info-box{
+
+    border: solid 2px var(--green);
+    width: 26%;
+    border-radius: 5px;
+    padding: 3rem;
+    margin-right: 3rem;
+}
+

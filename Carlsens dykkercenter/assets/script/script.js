@@ -58,7 +58,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 // kode for maps
  
 let map = L.map('maps').setView([57.07099, 9.94716], 19);
@@ -71,3 +71,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoibWVsaXNhbWFzbGljIiwiYSI6ImNsMzhuMHNmeTAxZ2wzY21rZWpqaDBsdHEifQ.okesO0TuRF4HcdpOFAWJkQ'
 }).addTo(map);
+
+
+// // kode for maps// 
+//let map = L.map('maps').setView([57.0551, 9.9152], 12);
+//>>>>>>> 221318b051fc8f287216f4a903429151d927a3b6

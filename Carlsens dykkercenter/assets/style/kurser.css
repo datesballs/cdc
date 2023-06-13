@@ -12,6 +12,10 @@
     
 }
 
+.displayflex{
+    display: flex;
+}
+
 .book-info{
     display: flex;
         justify-content: center;
@@ -42,4 +46,8 @@ p{
     font-size: 1.5rem;
     margin: 4rem;
     padding-left: 2rem;
+}
+
+.info-box-container{
+    display: flex;
 }
