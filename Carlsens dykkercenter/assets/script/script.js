@@ -58,6 +58,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+<<<<<<< HEAD
 // kode for maps
  
 let map = L.map('maps').setView([57.07099, 9.94716], 19);
