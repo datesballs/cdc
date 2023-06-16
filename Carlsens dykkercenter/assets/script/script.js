@@ -61,6 +61,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 //<<<<<<< HEAD
 // kode for maps
  
+// henter koordinater + zoomet ind
 let map = L.map('maps').setView([57.07099, 9.94716], 19);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
