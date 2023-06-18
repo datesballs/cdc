@@ -73,7 +73,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'mapbox/streets-v11',
     // hvor langt der er fra kanten af
     tileSize: 512,
-    // indstilling til kortet
+    // måden man agere på i forbindelse med når man holder kontrol/command nede når man zoomer ind og ud
     zoomOffset: -1,
     // access token til at bruge maps 
     accessToken: 'pk.eyJ1IjoibWVsaXNhbWFzbGljIiwiYSI6ImNsMzhuMHNmeTAxZ2wzY21rZWpqaDBsdHEifQ.okesO0TuRF4HcdpOFAWJkQ'
