@@ -69,9 +69,11 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     // angivelse af maxzoom
     maxZoom: 18,
+    // setting af hvordan kortet ser ud
     id: 'mapbox/streets-v11',
     // hvor langt der er fra kanten af
     tileSize: 512,
+    // indstilling til kortet
     zoomOffset: -1,
     // access token til at bruge maps 
     accessToken: 'pk.eyJ1IjoibWVsaXNhbWFzbGljIiwiYSI6ImNsMzhuMHNmeTAxZ2wzY21rZWpqaDBsdHEifQ.okesO0TuRF4HcdpOFAWJkQ'
