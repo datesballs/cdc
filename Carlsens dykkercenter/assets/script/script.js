@@ -75,6 +75,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     // måden man agere på i forbindelse med når man holder kontrol/command nede når man zoomer ind og ud
     zoomOffset: -1,
-    // access token til at bruge maps 
+    // access token til at bruge google maps 
     accessToken: 'pk.eyJ1IjoibWVsaXNhbWFzbGljIiwiYSI6ImNsMzhuMHNmeTAxZ2wzY21rZWpqaDBsdHEifQ.okesO0TuRF4HcdpOFAWJkQ'
 }).addTo(map);

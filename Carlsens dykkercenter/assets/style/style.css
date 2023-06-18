@@ -99,7 +99,7 @@
 
 /* benyttes til at positionere front og bagside af kortet*/
 .flip-card-front, .flip-card-back {
-    /* placeret ift. den nærmeste placering (tekst forbliver i boks)*/
+    /* placeret ift. den nærmeste placering (tekst forbliver i boks) / tekst på bagside bliver skjult*/
     position: absolute;
     width: 100%;
     height: 100%;
