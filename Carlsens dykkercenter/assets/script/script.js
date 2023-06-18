@@ -61,19 +61,18 @@ hiddenElements.forEach((el) => observer.observe(el));
 //<<<<<<< HEAD
 // kode for maps
  
-// henter koordinater + zoomet ind
+// erklæring af variabel - henter geografiske koordinater + zoomniveau
 let map = L.map('maps').setView([57.07099, 9.94716], 19);
 
+// henter URL, for at kortet kan blive vist ift. open sours 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    // angivelse af maxzoom
     maxZoom: 18,
     id: 'mapbox/streets-v11',
+    // hvor langt der er fra kanten af
     tileSize: 512,
     zoomOffset: -1,
+    // access token til at bruge maps 
     accessToken: 'pk.eyJ1IjoibWVsaXNhbWFzbGljIiwiYSI6ImNsMzhuMHNmeTAxZ2wzY21rZWpqaDBsdHEifQ.okesO0TuRF4HcdpOFAWJkQ'
 }).addTo(map);
-
-
-// // kode for maps// 
-//let map = L.map('maps').setView([57.0551, 9.9152], 12);
-//>>>>>>> 221318b051fc8f287216f4a903429151d927a3b6

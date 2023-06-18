@@ -71,21 +71,24 @@
 }
 
 .flip-card {
-    background-color: var(--lightgrey);
+    background-color: transparent;
     width: 25rem;
     height: 18rem;
-    border: 1px solid #f1f1f1;
-    perspective: 1000px;
+    border: 4px solid var(--green);
 }
 
 /* Denne container benyttes for at positionere front og bagside af kortet */
 .flip-card-inner{
+    /* placering = normal */
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
+    /* tager 0.8 s. at flippe */
     transition: transform 0.8s;
+    /* flipper som et rigtigt kort */
     transform-style: preserve-3d;
+    /* placering af tekst */
     margin-top: 3.5rem;
 }
 
@@ -96,16 +99,15 @@
 
 /* benyttes til at positionere front og bagside af kortet*/
 .flip-card-front, .flip-card-back {
+    /* placeret ift. den nærmeste placering (tekst forbliver i boks)*/
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
 
 /* styling af front siden */
 .flip-card-front {
-    background-color: var(darkblue);
     color: black;
 }
 
